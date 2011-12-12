@@ -1,0 +1,22 @@
+Emotional Trainer was started by a team of five undergraduate students of computer science and computational media at the Georgia Institute of technology. They are  collectively credited as "Chameleon Designs" These individuals are, in alphabetical order:
+
+Moinak Bandyopadhyay
+Jessica Blair
+Kevin Jones
+Mudit Manu Paliwal
+Jacob Solomon
+
+We also received guidance on the project from Prof. Bob Waters (http://www.cc.gatech.edu/home/watersr/) and Dr. Rosa Arriaga (http://www.cc.gatech.edu/~arriaga/), to whom we owe a great deal of gratitude.
+
+
+If you have any concerns about this license or how it pertains to some piece of code within this package, please contact Kevin Jones at kevin.chris.jones@gmail.com
+
+-----
+
+Copyright 2011 Moinak Bandyopadhyay, Jessica Blair, Kevin Jones, Mudit Manu Paliwal, Jacob Solomon.
+
+Emotional Trainer is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+Emotional Trainer is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with Emotional Trainer. If not, see <http:/www.gnu.org/licenses/>.

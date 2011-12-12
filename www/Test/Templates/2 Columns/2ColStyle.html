@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<SCRIPT language="JavaScript" SRC="caregiver.js"></SCRIPT>
+<SCRIPT language="JavaScript" SRC="validation.js"></SCRIPT>
+<link href="twoColumnsTemplateStyle.css" rel="stylesheet" type="text/css" />
+<title>Untitled Document</title>
+
+
+
+<!--[if lte IE 7]>
+<style>
+.content { margin-right: -1px; } /* this 1px negative margin can be placed on any of the columns in this layout with the same corrective effect. */
+ul.nav a { zoom: 1; }  /* the zoom property gives IE the hasLayout trigger it needs to correct extra whiltespace between the links */
+</style>
+<![endif]-->
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><a href="#"><img src="" alt="Insert Logo Here" name="Insert_logo" width="20%" height="15%" id="Insert_logo" style="background: #8090AB; display:block;" /></a> 
+    <!-- end .header --></div>
+  <div class="sidebar1">
+   <form method="post" action="login.php" onSubmit="return ValidateLogin()" name="loginForm" id="loginForm">
+    <p> 
+    
+     </p>
+  <p>
+    <label for="username">Username : </label>
+    <input type="text" name="username" id="username" />
+  </p>
+  <p>
+    <label for="Password">Password : </label>
+    <input type="password" name="password" id="password" />
+   </p>
+   <p>
+     <input name="Login" type="submit" value="Login" />
+   </p>
+</form>
+   <p>
+   <input name="Register" type="button" value="Register" onclick="window.location.href='register.php'"/>
+  </p>
+  
+  </div>
+  <div class="content">
+
+    <h1>Instructions</h1>
+    <p align="justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p> Click here to access the <a href="#">Kids Emotional Trainer Site</a></p>
+    <!-- end .content --></div>
+  <div class="footer">
+    <p>This .footer contains the declaration position:relative; to give Internet Explorer 6 hasLayout for the .footer and cause it to clear correctly. If you're not required to support IE6, you may remove it.</p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>

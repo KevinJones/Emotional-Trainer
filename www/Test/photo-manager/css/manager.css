@@ -1,0 +1,121 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFF;
+	color:#000;
+}
+
+.page
+{
+	width: 920px;
+	padding: 0;
+	background: #FFFFFF;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+table,tr,td{
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+strong, b {
+	color: #000;
+}
+a:link, a:visited {
+	color: #64B004;
+	text-decoration: underline;
+}
+a:hover, a:active {
+	color: #000;
+	text-decoration: underline;
+}
+h1 {
+	font-family:"Trebuchet MS"Verdana, Arial, sans-serif;
+	color: #007905;
+	font-size: 20px;
+	padding-bottom: 1px;
+	border-bottom:#C6C6C2 dotted 2px;
+}
+
+#contentMid {
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px; 
+	text-align:left; 
+	color: #000;}
+	
+#contentMid .title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px; 
+	text-align:right; 
+	color: #007905;
+	padding-right:10px;
+}
+
+input:focus, textarea:focus {background-color: #E3FBC5; border-color: #A4CB72; }
+
+.div_photo {
+	padding:1px 1px 2px 1px;
+}
+/* iframe.css */
+iframe {
+	border-width: 0px;
+	height: 60px;
+	width: 400px;
+}
+iframe.hidden {
+	visibility: hidden;
+	width:0px;
+	height:0px;
+}
+
+#main {
+	overflow: hidden;
+	margin: auto;
+}
+
+#images {
+	width: 390px;
+	margin: 20px;
+}
+
+#images_container {
+	float:inherit;
+}
+
+#images_container div {
+	margin:10px 20px 10px 0px;
+	width: 100px;
+	height: 140px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #DEDFDE;
+	float: left;
+	overflow: hidden;
+}
+
+#images_container div a{
+	margin-left:25px;
+}
+
+#images div:hover {
+	border-color: #529EBD;
+}
+
+.pic {
+	width: 100px;
+	height: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #DEDFDE;
+}
+
+#file {
+	width: 350px;
+}
+
+#error {
+	padding: 5px 0 10px 0;
+	color:#FF0000;
+}
